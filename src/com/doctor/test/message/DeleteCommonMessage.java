@@ -14,6 +14,7 @@ public class DeleteCommonMessage extends BasicTestCase {
 	/* (non-Javadoc)
 	 * @see com.doctor.test.BasicTestCase#setUp()
 	 */
+	@Override
 	protected void setUp() throws Exception {
 		super.setUp();
 	}
@@ -21,6 +22,7 @@ public class DeleteCommonMessage extends BasicTestCase {
 	/* (non-Javadoc)
 	 * @see com.doctor.test.BasicTestCase#tearDown()
 	 */
+	@Override
 	protected void tearDown() throws Exception {
 		super.tearDown();
 	}
